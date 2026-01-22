@@ -9,7 +9,7 @@
     "targetOsType": "Windows",
     "parameters": {},
     "runCommand": {
-        "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File UpdateWSL.ps1"
+        "commandToExecute": "wsl.exe --upgrade"
     },
     "postDeployActions": [
         {
