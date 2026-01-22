@@ -4,6 +4,6 @@ Write-Output "Updating Windows Subsystem for Linux Feature"
 Invoke-Command -ScriptBlock { 
     wsl.exe --update
     wsl.exe --set-default-version 2
-    wsl.exe --install Ubuntu
+    wsl.exe --install --no-launch Ubuntu
 }
 
