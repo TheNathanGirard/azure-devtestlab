@@ -9,7 +9,7 @@
     "targetOsType": "Windows",
     "parameters": {},
     "runCommand": {
-        "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File EnableWSL.ps1"
+        "commandToExecute": "wsl --install --no-distribution"
     },
     "postDeployActions": [
         {
@@ -22,4 +22,5 @@
             "action": "restart"
         }
     ]
+
 }
