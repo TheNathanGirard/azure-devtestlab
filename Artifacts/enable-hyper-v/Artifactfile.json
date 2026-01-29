@@ -10,7 +10,7 @@
     "targetOsType": "Windows",
     "parameters": {},
     "runCommand": {
-        "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File EnableHyperV.ps1"
+        "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File Enable-HyperV.ps1"
     },
     "postDeployActions": [
         {
@@ -25,3 +25,4 @@
     ]
 
 }
+
